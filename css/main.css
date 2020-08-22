@@ -157,4 +157,22 @@ body {
     right: 0;
     left: 0;
     bottom: 0;
+    color: white;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+  }
+
+  .carousel-item__details div img{
+    width: 30px;
+  }
+
+  .carousel-item__details--title {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 5px 0 0;
+  }
+
+  .carousel-item__details--subtitle {
+    margin: 0;
   }
