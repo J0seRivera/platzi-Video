@@ -67,6 +67,14 @@ body {
     color: white;
   }
 
+  .categories__tittle {
+    color: white;
+    font-size: 24px;
+    position: relative;
+    padding-left: 30px;
+    /* width: 100%; */
+  }
+
   .main {
     height: 300px;
     display: flex;
@@ -100,9 +108,9 @@ body {
 
 
   .carousel {
-    width: 100%;
-    overflow: scroll;
-    padding: 30px;
+    /* width: 100vw; */
+    overflow: auto;
+    padding-left: 30px;
     position: relative;
   }
 
@@ -176,3 +184,30 @@ body {
   .carousel-item__details--subtitle {
     margin: 0;
   }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    /* width: 100%; */
+    background-color: #AB88FF;
+  }
+
+  .footer a {
+    color: white;
+    font-size: 14px;
+    padding-left: 30px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .footer a:hover {
+    text-decoration: underline;
+  }
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
